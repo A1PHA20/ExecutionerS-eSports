@@ -24,7 +24,7 @@ client.on("guildMemberRemove", async (member) => {
     const embed = new MessageEmbed()
         .setAuthor(member.user.tag, member.user.displayAvatarURL({ dynamic: true }))
         .setThumbnail(member.user.displayAvatarURL({ dynamic: true }))
-        .setDescription(`> Doddah chole gase!!:cry::cry:\n> We are now **${member.guild.memberCount}** in the server.`)
+        .setDescription(`> Boddah chole gase!!:cry::cry:\n> We are now **${member.guild.memberCount}** in the server.`)
         .setTimestamp()
         .setColor("RED")
         .setFooter(member.guild.name, member.guild.iconURL({ dynamic: true }))
