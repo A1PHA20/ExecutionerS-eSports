@@ -14,7 +14,7 @@ client.categories = fs.readdirSync("./commands/");
 ["command"].forEach(handler => {
 	require(`./handlers/${handler}`)(client);
 })
-client.login(process.env.TOKEN)
+client.login("ODYzOTcyMjgzNjY0MDM5OTgx.YOuq5A.Yz0n-j8yJOdXheMhk5CwuZRpqFM")
 process.on('unhandledRejection', (reason, p) => {
   console.log(' [antiCrash] :: Unhandled Rejection/Catch');
   console.log(reason, p);
